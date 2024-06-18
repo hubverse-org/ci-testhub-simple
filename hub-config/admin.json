@@ -6,12 +6,11 @@
         "name": "Joe Bloggs",
         "email": "j.bloggs@cidmh.com"
     },
-    "repository_url": "https://github.com/hubverse-org/example-simple-forecast-hub",
-    "hub_models": [{
-        "team_abbr": "simple_hub",
-        "model_abbr": "baseline",
-        "model_type": "baseline"
-    }],
+    "repository": {
+        "host": "github",
+        "owner": "hubverse-org",
+        "name": "ci-testhub-simple"
+    },
     "file_format": ["csv", "parquet", "arrow"],
     "timezone": "US/Eastern"
 }
