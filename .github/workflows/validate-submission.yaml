@@ -47,6 +47,8 @@ jobs:
           # Customise validation with further inputs, e.g. to skip the submission
           # window check or install extra packages for custom checks. See the
           # action README for the full list.
-          # skip_submit_window_check: true
+          # Every round in this test hub closed in 2022, so the window check
+          # would fail whatever is submitted.
+          skip_submit_window_check: true
           # extra_packages: |
           #   any::mycustompkg
