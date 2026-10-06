@@ -11,6 +11,6 @@
         "owner": "hubverse-org",
         "name": "ci-testhub-simple"
     },
-    "file_format": ["csv", "parquet", "arrow"],
+    "file_format": ["csv", "parquet", "arrow", "xlsx"],
     "timezone": "US/Eastern"
 }
